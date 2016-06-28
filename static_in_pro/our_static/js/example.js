@@ -17,7 +17,7 @@ function valid_form(){
     }
     if ( ( document.contact_form.gender[0].checked == false ) && ( document.contact_form.gender[1].checked == false ) )
         {
-                alert ( "Пожалуйста, выберите Ваш пол: Мужской или Женский" );
+                alert ( "Sorry, but you not choose your gender." );
                 valid = false;
         }
     return valid; 

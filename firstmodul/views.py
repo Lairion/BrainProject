@@ -7,13 +7,13 @@ def base(request):
 		'title':title,
 	}
 	return render(request, "base.html", context)
-def base(request):
+def student(request):
 	title = 'student'
 	context = {
 		'title':title,
 	}
 	return render(request, "student.html", context)
-def base(request):
+def calc(request):
 	title = 'calc'
 	context = {
 		'title':title,

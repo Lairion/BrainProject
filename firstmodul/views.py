@@ -19,3 +19,9 @@ def calc(request):
 		'title':title,
 	}
 	return render(request, "calc.html", context)
+def cars(request):
+	title = 'calc'
+	context = {
+		'title':title,
+	}
+	return render(request, "cars.html", context)
